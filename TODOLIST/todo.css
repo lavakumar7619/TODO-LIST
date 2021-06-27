@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+h1{
+    margin:0;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #e30000;
+    background:#d4c2be;
+}
+p{
+    font-weight: 100;
+    font-size: 20px;
+}
+input{
+    font-size:30px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+button{
+    font-family: "Poppins", sans-serif;
+    color:green;
+    font-size:20px; 
+    background:white;
+    border:3px solid green;
+    border-radius:25px;
+    cursor: pointer;
+    trasition:all 0.3 ease;
+    text-align: center;
+    padding: 0px 10px;
+}
+button:hover{
+    background:#d88771;
+    color:white;
+}
+
+#list{
+    background:#F0D115;
+    border-radius: 25px;
+    padding:1px 2px;
+    margin:0px 20px;
+}
+h5{
+    font-size: 30px;
+    color:blue;
+}
+ul{
+    line-height: 30px;
+    margin:20px 20px;
+    padding:20px 10px;
+}
+li{
+    display:flex;
+    justify-content:space-between; 
+    padding:6px 5px;
+    background:white;
+    text-align: center;
+}
+li:hover{
+    color:#002AA7;
+    background: #E5E7EB;
+}
+.name{
+    font-size:25px;
+    padding:2px 5px;
+}
+#ul input{
+    cursor:pointer;
+    margin-top: 10px;
+}
+#ul label{  
+    color:red;
+}
+
+.delete{
+    width: 150px;
+    color: black;
+    text-align: center;
+    padding: 0px 5px;
+    background: #FF4747;
+    border: 2px solid red;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    overflow: hidden;
+}
+.delete:hover{
+    border: none;
+    color:white;
+    background:red;
+}
